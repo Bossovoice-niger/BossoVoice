@@ -1,30 +1,17 @@
-# BossoVoice - Offline Voice AI for Farmers in Niger 🇳🇪
-Built for Meta Global Hackathon 2026 - $1M Prize
-From Bosso, Diffa, Niger
+# BossoVoice - Offline Voice AI for 10,000 farmers in Bosso, Niger
 
-### The Problem
-In Bosso, farmers speak Kanuri, Hausa, Zarma. They have no internet, can't read, lose crops. No tech speaks their language.
+BossoVoice helps farmers in Bosso (Diffa, Niger) who can't read French and have no internet.
 
-### The Solution: BossoVoice
-App that lets farmers SPEAK in Kanuri/Hausa and get answers in their own language - with NO INTERNET.
+Farmer speaks Kanuri: "When rain?"
+AI answers in Kanuri voice: "Rain in 2 days, don't plant yet. Millet 350 CFA in Diffa."
 
-Farmer: "When will rain come?"
-BossoVoice (voice): Weather, crop advice, market price - in Kanuri!
+## Tech
+- Llama 3.2 3B fine-tuned for Kanuri (offline via llama.cpp)
+- Whisper for Kanuri/Hausa voice input
+- MMS TTS for Kanuri output
+- 100% offline, syncs in Bosso town
 
-### Tech - Built for Meta
-- Meta Llama 3 - Farming brain
-- Whisper AI Offline - Kanuri/Hausa speech
-- Meta Voice AI - Local language voice
-- Offline-First PWA - Works with 0% internet
-- React Native + Python
+## Why Meta?
+Only Llama can run offline on $50 Android and be fine-tuned for Kanuri.
 
-### Founder
-Abdoulrahamane Maazou Ibrahim - From Bosso, Diffa, Niger.
-Luma: maazoumoussaabdoulrahamane
-Building tech for my people.
-
-### Vision
-Start in Bosso (10,000 farmers), then all Niger, then Sahel.
-$1M will deploy to 100 villages.
-
-#MetaGlobalHackathon #Llama #Niger
+Team: Abdoulrahamane Maazou Ibrahim - Enseignant civicard, Diffa
