@@ -1,2 +1,3 @@
+llama-api
 groq
 python-dotenv
